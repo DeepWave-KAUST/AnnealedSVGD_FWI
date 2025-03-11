@@ -1,7 +1,7 @@
 ![LOGO](https://github.com/DeepWave-KAUST/AnnealedSVGD_FWI-dev/blob/main/asset/logo.png)
 
-## Reproducible material for Annealed Stein Variational Gradient Descent for Improved
-Uncertainty Estimation in Full-Waveform Inversion <br />
+## Reproducible material for Annealed Stein Variational Gradient Descent for Improved Uncertainty Estimation in Full-Waveform Inversion
+ <br />
 
 Corrales M.<sup>1+</sup>, Berti S.<sup>2+</sup>, Denel B.<sup>3</sup>, Williamson P.<sup>3</sup>, Aleardi M.<sup>2</sup>, and Ravasi M.<sup>1</sup>  <br />
 <sup>1</sup> King Abdullah University of Science and Technology (KAUST)  <br />
