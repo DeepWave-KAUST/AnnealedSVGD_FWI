@@ -1,0 +1,37 @@
+name: svgdfwi
+channels:
+  - pytorch
+  - nvidia #/label/cuda-11.8
+  - conda-forge
+  - defaults
+dependencies:
+  - python>=3.12
+  - pip
+  - cuda
+  - numpy>=1.26.4
+  - scipy>=1.11.4
+  - cudatoolkit=11.8
+  - pytorch==2.2.2=py3.12_cuda11.8_cudnn8.7.0_0
+  - matplotlib
+  - ipython
+  - jupyter
+  - gstools
+  - pylops==2.2.0
+  - tqdm
+  - pip:
+    - cupy-cuda11x
+    - setuptools_scm
+    - torchvision
+    - torchaudio
+    - torchsummary
+    - segyio
+    - hydra-core
+    - imageio
+    - imageio[ffmpeg]
+    - scikit-learn
+    - seaborn
+    - opencv-python
+    - corner
+    - deepwave==0.0.20
+    - hdbscan
+    - tabulate

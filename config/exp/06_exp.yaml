@@ -1,0 +1,35 @@
+files:
+  velocity_model: marmousi_portion.npy
+paths:
+  path: ../../data/
+  out_path: ../../results/exp/06_exp/
+  figure_path: ../../figures/exp/06_exp/
+params:
+  nx: 216
+  dx: 20
+  nz: 81
+  ns: 5
+  nr: 99
+  nt: 3000  
+  dt: 0.001  
+  first_source: 0
+  source_depth: 1
+  first_receiver: 0
+  receiver_depth: 1
+
+  peak_freq: 7
+  filter_freq: 1.0
+  peak_time: 1.5
+
+  batch_size: 1
+  learning_rate: 100
+  num_iterations: 601
+  num_particles: 50
+
+  # Don't change the below two lines 
+  num_sources_per_shot: 1
+  num_receivers_per_shot: 201
+  num_dims: 2 
+
+  m_vmin: 1500
+  m_vmax: 3800

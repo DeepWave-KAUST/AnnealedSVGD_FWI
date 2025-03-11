@@ -1,0 +1,53 @@
+# OS generated files #
+.*.swp
+*.py[cod]
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+.idea/*
+static/*
+db.sqlite3
+
+# Build #
+build
+dist
+svgdfwi.egg-info/
+
+# setuptools_scm generated  #
+svgdfwi/version.py 
+
+# Development #
+.ipynb_checkpoints/
+
+#Large files
+results/exp/
+results/multiscale/
+!results/files.md
+
+data/model_pre_MCMC.npy
+data/model_std_MCMC.npy
+data/model_true_DCT.npy
+
+figures/*
+!figures/paper/
+!figures/exp/
+!figures/multiscale/
+
+# !figures/exp/
+
+# hydra outputs
+scripts/test/outputs/
+scripts/exp/outputs/
+scripts/multiscale/outputs/
+*.log
+
+# frames for videos
+temp_frames_*/
+temp_frames/*
+
+# Videos
+# videos/*
