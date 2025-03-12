@@ -8,7 +8,7 @@ Corrales M.<sup>1+</sup>, Berti S.<sup>2+</sup>, Denel B.<sup>3</sup>, Williamso
 <sup>2</sup> University of Pisa  <br />
 <sup>3</sup> TotalEnergies  <br />
 <sup>+</sup> Equal contribution  <br />
-https://doi.org/10.1093/gji/ggaf096
+
 
 
 
