@@ -75,3 +75,21 @@ To ensure reproducibility of the results, we suggest using the `environment.yml`
 > [!NOTE]  
 > All experiments have been carried on a Intel(R) Xeon(R) Gold 6142 CPU @ 2.60GHz equipped with a single NVIDIA A100-SXM4-80GB. Different environment 
 configurations may be required for different combinations of workstation and GPU.
+
+## Find it useful? Please cite us!
+
+If you find this project useful, please consider citing our work using the following BibTeX reference:
+
+```bibtex
+@article{10.1093/gji/ggaf096,
+    author = {Corrales, Miguel and Berti, Sean and Denel, Bertrand and Williamson, Paul and Aleardi, Mattia and Ravasi, Matteo},
+    title = {Annealed Stein Variational Gradient Descent for Improved Uncertainty Estimation in Full-Waveform Inversion},
+    journal = {Geophysical Journal International},
+    pages = {ggaf096},
+    year = {2025},
+    month = {03},
+    issn = {1365-246X},
+    doi = {10.1093/gji/ggaf096},
+    url = {https://doi.org/10.1093/gji/ggaf096}
+}
+```
