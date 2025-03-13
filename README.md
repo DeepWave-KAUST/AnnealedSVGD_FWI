@@ -12,27 +12,27 @@ Corrales M.<sup>1+</sup>, Berti S.<sup>2+</sup>, Denel B.<sup>3</sup>, Williamso
 
 
 
-## Project structure
+## :bar_chart: Project structure
 This repository is organized as follows:
 
 * :open_file_folder: **svgdfwi**: python library containing routines for SVGD-FWI.
 * :open_file_folder: **data**: folder containing data.
 * :open_file_folder: **notebooks**: set of jupyter notebooks testing the scripts.
-* :open_file_folder: **scripts**: set of python scripts used to run multiple experiments (exp-for single frequency, and multiscale-for multiscale frequency FWI).
+* :open_file_folder: **scripts**: set of python scripts used to run multiple experiments (exp-for single frequency, and multiscale-for multi-frequency FWI).
 * :open_file_folder: **videos**: Videos and plots for experiment monitoring.
 * :open_file_folder: **visualization**: python routines for final plots.
 
-## Notebooks
+## :fire: Notebooks
 The following notebooks are provided:
 
 - :orange_book: ``00_testing_svgd_fwi.ipynb``: notebook performing the svgd setup for fwi;
 - :orange_book: ``01_HDBSCAN_clustering.ipynb``: notebook performing HDBSCAN clustering in the particles.
 
 
-## Scripts
+## :zap: Scripts
 Set of scripts that are detailed on the file :green_book: ``experiment_list.xlsx``.
 
-## Getting started :alien: :flying_saucer: :cow2:
+## :video_game: Getting started 
 To ensure reproducibility of the results, we suggest using the `environment.yml` file when creating an environment.
 
 > [!TIP]
@@ -76,7 +76,7 @@ To ensure reproducibility of the results, we suggest using the `environment.yml`
 > All experiments have been carried on a Intel(R) Xeon(R) Gold 6142 CPU @ 2.60GHz equipped with a single NVIDIA A100-SXM4-80GB. Different environment 
 configurations may be required for different combinations of workstation and GPU.
 
-## Find it useful? Please cite us!
+## Find it useful? Please cite us! :alien: :flying_saucer: :cow2:
 
 If you find this project useful, please consider citing our work using the following BibTeX reference:
 
